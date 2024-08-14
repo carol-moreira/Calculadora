@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{094FC6BD-A4C0-4101-89A7-EE2714701416}|Calculadora\\Calculadora.csproj|c:\\users\\cahsb\\desktop\\all\\essentials\\estudo\\projetos\\calculadora\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094FC6BD-A4C0-4101-89A7-EE2714701416}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094FC6BD-A4C0-4101-89A7-EE2714701416}|Calculadora\\Calculadora.csproj|c:\\users\\cahsb\\desktop\\all\\essentials\\estudo\\projetos\\calculadora\\calculadora\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094FC6BD-A4C0-4101-89A7-EE2714701416}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\operacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{094FC6BD-A4C0-4101-89A7-EE2714701416}|Calculadora\\Calculadora.csproj|c:\\users\\cahsb\\desktop\\all\\essentials\\estudo\\projetos\\calculadora\\calculadora\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{094FC6BD-A4C0-4101-89A7-EE2714701416}|Calculadora\\Calculadora.csproj|solutionrelative:calculadora\\calculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\Calculadora\\Program.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Program.cs",
+              "ToolTip": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\Calculadora\\Program.cs",
+              "RelativeToolTip": "Calculadora\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:14:56.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Operacoes.cs",
+              "DocumentMoniker": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\Calculadora\\Operacoes.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Operacoes.cs",
+              "ToolTip": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\Calculadora\\Operacoes.cs",
+              "RelativeToolTip": "Calculadora\\Operacoes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:14:55.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Calculadora.cs",
+              "DocumentMoniker": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\Calculadora\\Calculadora.cs",
+              "RelativeDocumentMoniker": "Calculadora\\Calculadora.cs",
+              "ToolTip": "C:\\Users\\cahsb\\Desktop\\all\\essentials\\Estudo\\Projetos\\Calculadora\\Calculadora\\Calculadora.cs",
+              "RelativeToolTip": "Calculadora\\Calculadora.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-14T13:14:54.034Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

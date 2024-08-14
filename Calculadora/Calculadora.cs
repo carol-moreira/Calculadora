@@ -1,32 +1,54 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace Calculadora
 {
-    public class Calculadora
+    class Calculadora
     {
-        
-        public Operacoes calcular(Operacoes operacao)
+        private Stack<double> resultados;
+
+        public Calculadora()
         {
-            switch(operacao.operador)
+            resultados = new Stack<double>();
+        }
+
+        public void calcular(Operacoes operacao)
+        {
+            switch (operacao.operador)
             {
-                case '+': operacao.resultado= soma(operacao);break;
-                case '-': operacao.resultado = subtracao(operacao);break;
-                case '*': operacao.resultado = multiplicacao(operacao);break;
-                default: operacao.resultado = 0; break;
+                case '+':
+                    operacao.resultado = operacao.valorA + operacao.valorB;
+                    break;
+                case '-':
+                    operacao.resultado = operacao.valorA - operacao.valorB;
+                    break;
+                case '*':
+                    operacao.resultado = operacao.valorA * operacao.valorB;
+                    break;
+                case '/':
+                    if (operacao.valorB != 0)
+                    {
+                        operacao.resultado = operacao.valorA / operacao.valorB;
+                    }
+                    else
+                    {
+                        throw new DivideByZeroException("Divisão por zero não é permitida.");
+                    }
+                    break;
+                default:
+                    throw new InvalidOperationException("Operador inválido.");
             }
-            return operacao;
+
+            // Armazenar o resultado na pilha
+            resultados.Push(operacao.resultado);
+
+            // Imprimir a operação e o resultado
+            Console.WriteLine($"Operação: {operacao.valorA} {operacao.operador} {operacao.valorB}");
+            Console.WriteLine("Resultado:");
+            foreach (var resultado in resultados)
+            {
+                Console.WriteLine(resultado);
+            }
         }
-        public int soma(Operacoes operacao)
-        {
-            return operacao.valorA + operacao.valorB;
-        }
-        public int subtracao(Operacoes operacao)
-        {
-            return operacao.valorA - operacao.valorB;
-        }
-        public int multiplicacao(Operacoes operacao)
-        {
-            return operacao.valorA * operacao.valorB;
-        }
-       
     }
 }

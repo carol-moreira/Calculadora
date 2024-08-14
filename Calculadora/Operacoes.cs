@@ -1,12 +1,11 @@
 ﻿using System;
 namespace Calculadora
 {
-    public class Operacoes
+class Operacoes
     {
-        public int valorA {get;set;}
-        public char operador { get; set; }
-        public int valorB { get; set; }
-        public decimal resultado { get; set; }
-
+        public char operador;
+        public double valorA;
+        public double valorB;
+        public double resultado;
     }
 }
